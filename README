@@ -1,4 +1,4 @@
-An ActionScript3.0 binary decision tree
+An ActionScript3.0 binary decision tree for AI bot/agent in a video games
 
 This just contain a base class for each decision node, action node, and the tree. So you must create a working concrete class by extending them.
 
