@@ -1,3 +1,6 @@
-An ActionScript3.0 decision tree
+An ActionScript3.0 binary decision tree
 
-FSMActionNode depends on IState, so it need my FSM library
+This just contain a base class for each decision node and action node. So you must create a working concrete class by extending them.
+
+Decision node is a node which have children node. 
+Action node is a node which didn't have children node, but have an action/behaviour to take.
