@@ -1,6 +1,7 @@
 An ActionScript3.0 binary decision tree
 
-This just contain a base class for each decision node and action node. So you must create a working concrete class by extending them.
+This just contain a base class for each decision node, action node, and the tree. So you must create a working concrete class by extending them.
 
-Decision node is a node which have children node. 
+Decision node is a node which have children node or branch. 
 Action node is a node which didn't have children node, but have an action/behaviour to take.
+FSMAction node is a special Action node designed for a FSM-Decision Tree hybrid. So you can just use this class by defining the FSM entity and its target state. No need to extends this class and defining its behaviour/action. Note: its depend on my FSM class.
