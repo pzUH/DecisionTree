@@ -25,6 +25,17 @@ package
 		
 		override protected function constructTree():void
 		{
+			/*
+			 * 		--------decison tree graph--------
+			 * 
+			 * 					[enemy check]
+			 * 					/			\
+			 * 			[life check]		[idle]
+			 * 			/			\
+			 * 		[attack]		[flee]
+			 * 
+			 * */
+			
 			//init all nodes
 			var enemyCheckNode:BaseDecisionNode = new EnemyInSightNode(ENEMY_CHECK);
 			var lifeCheckNode:BaseDecisionNode = new LifeFullNode(LIFE_CHECK);
